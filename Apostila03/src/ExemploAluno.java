@@ -6,29 +6,37 @@ public class ExemploAluno {
 
         //Atribuir valores para todos os atributos do alunos
         estudante.id = 123;
+        estudante.idade = 21;
+        estudante.nome = "silasnorris";
+        estudante.turma = 'A';
         estudante.matriculado = true;
-        estudante.idade = 18;
-        estudante.nome = "Matheus";
-        estudante.nomeCurso = "ADS";
-        estudante.turma = 'V';
-        estudante.valorMensalidade = 300;
+        estudante.valorMensalidade = 13000;
+        estudante.nomeCurso = "analise e desenvolvimento de sistemas";
 
         //Exibir os valores dos atributos do objeto aluno
-        System.out.println("Id: " + estudante.id);
-        System.out.println("Nome: " + estudante.nome);
-        System.out.println("Idade: " + estudante.idade);
-        System.out.println("Curso: " + estudante.nomeCurso + ", Turma: 1TDSP" + estudante.turma);
-        System.out.println("Matriculado: " + estudante.matriculado);
-        System.out.println("Mensalidade: " + estudante.valorMensalidade);
+        System.out.println("Id:" + estudante.id);
+        System.out.println("Nome:" + estudante.nome);
+        System.out.println("turma:" + estudante.turma);
+        System.out.println("matriculado:" + estudante.matriculado);
+        System.out.println("Mensalidade:" + estudante.valorMensalidade);
+        System.out.println("Curso:" + estudante.nomeCurso);
 
-        //Criar um outro objeto aluno, atribuir valores para 2 propriedades e exibir os valores
-        Aluno maria = new Aluno();
-        maria.nomeCurso = "Analise e Desenvolvimento de Sistemas";
-        maria.idade = 20;
-        System.out.println("--------------------------------");
-        System.out.println("Nome do curso: " + maria.nomeCurso);
-        System.out.println("Idade: "  + maria.idade);
+        Aluno silas = new Aluno();
+        silas.nomeCurso = "analise e desenvolvimento de sistemas";
+        silas.idade = 20;
+        silas.nome = "Silas Angare Pedroso de Oliveira";
 
+        System.out.println("----------------------------");
+        System.out.println("Idade:" + silas.idade);
+        System.out.println("Curso:" + silas.nomeCurso);
+        System.out.println("Nome:" + silas.nome);
+
+    
+        Aluno felpsrangel = new Aluno();
+        felpsrangel.nome = "feferangel";
+        System.out.println("----------------------------");
+        System.out.println("Nickname:" + felpsrangel.nome);
     }
+
 }
 

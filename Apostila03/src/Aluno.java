@@ -7,5 +7,5 @@ public class Aluno {
     char turma;
     int id;
     String nome;
-
 }
+
