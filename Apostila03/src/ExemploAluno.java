@@ -23,19 +23,15 @@ public class ExemploAluno {
 
         Aluno silas = new Aluno();
         silas.nomeCurso = "analise e desenvolvimento de sistemas";
-        silas.idade = 20;
+        silas.idade = 22;
         silas.nome = "Silas Angare Pedroso de Oliveira";
 
         System.out.println("----------------------------");
         System.out.println("Idade:" + silas.idade);
         System.out.println("Curso:" + silas.nomeCurso);
         System.out.println("Nome:" + silas.nome);
-
-    
-        Aluno felpsrangel = new Aluno();
-        felpsrangel.nome = "feferangel";
-        System.out.println("----------------------------");
-        System.out.println("Nickname:" + felpsrangel.nome);
+        
+       
     }
 
 }

@@ -19,9 +19,12 @@ public class ExemploOperadoresAritmeticos {
         System.out.println("X é " + x); //12
         x /= 2; // x = x / 2;
         System.out.println("X é " + x); //6
-        x %= 4; // x = x % 4;
+        x *= 3; // x = x % 4;
         System.out.println("X é " + x); //2
         y *= x; // y = y * x;
         System.out.println("Y é " + y); //64
+        x /= 3 ; // y = y / x;
+        System.out.println("X é"+ x);
+
     }//main
 }//class
