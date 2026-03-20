@@ -7,6 +7,9 @@ public class Produto {
     public int quantidade;
     public boolean garantia;
     public String tipo;
+
+    public Categoria categoria;
+
 }
 
 
